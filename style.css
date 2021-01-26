@@ -151,7 +151,6 @@ img {
     padding: 10px;
     color: #fff;
     box-shadow: 4px 4px 6px 1px hsl(320deg 20% 39%);
-    
     margin: auto;
     width: 20%;
     border-radius: 4px;
@@ -160,24 +159,95 @@ img {
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
-.women-section .women-products{
+
+.women-section .women-products {
     display: flex;
 }
-.product-title{
+
+.product-title {
     margin: 50px;
 }
-.product-image img{
-    height: 400px;
+
+.product-image {
+    position: relative;
 }
+
+.product-image img {
+    height: 350px;
+    width: 100%;
+}
+
 .product-title hr {
     width: 18%;
     height: 3px;
-    background-color:#da60b1 ;
+    background-color: #da60b1;
     border: none;
     align-items: center;
     margin: auto;
 }
-.product-title h2{
+
+.product-title h2 {
     text-align: center;
-    
+}
+
+.women-products .product {
+    margin: 0 20px;
+}
+
+/**Men's Section**/
+
+.men-section .shop-button {
+    background-image: linear-gradient(45deg, #da60b1, rgb(192, 84, 156));
+    padding: 10px;
+    color: #fff;
+    box-shadow: 4px 4px 6px 1px hsl(320deg 20% 39%);
+    margin: auto;
+    width: 20%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.men-section .men-products {
+    display: flex;
+}
+
+.product-title {
+    margin: 50px;
+}
+
+.product-image {
+    position: relative;
+}
+
+.product-image img {
+    height: 350px;
+    width: 100%;
+}
+
+.men-section hr {
+    width: 13%;
+    height: 3px;
+    background-color: #da60b1;
+    border: none;
+    align-items: center;
+    margin: auto;
+}
+
+.product-title h2 {
+    text-align: center;
+}
+
+.men-products .product {
+    margin: 0 20px;
+}
+
+.men-section{
+    margin-bottom: 100px;
+}
+
+.product-details p{
+    margin-bottom: 20px ;
 }
