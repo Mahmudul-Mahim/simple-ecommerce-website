@@ -18,7 +18,7 @@ a {
 }
 
 img {
-    width: 50%;
+    width: 100%;
     padding-top: 20px;
 }
 
@@ -145,3 +145,39 @@ img {
 }
 
 /**womens section**/
+
+.women-section .shop-button {
+    background-image: linear-gradient(45deg, #da60b1, rgb(192, 84, 156));
+    padding: 10px;
+    color: #fff;
+    box-shadow: 4px 4px 6px 1px hsl(320deg 20% 39%);
+    
+    margin: auto;
+    width: 20%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.women-section .women-products{
+    display: flex;
+}
+.product-title{
+    margin: 50px;
+}
+.product-image img{
+    height: 400px;
+}
+.product-title hr {
+    width: 18%;
+    height: 3px;
+    background-color:#da60b1 ;
+    border: none;
+    align-items: center;
+    margin: auto;
+}
+.product-title h2{
+    text-align: center;
+    
+}
