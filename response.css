@@ -1,0 +1,96 @@
+@media all and (max-width: 768px){
+    
+   
+    .header-main{
+        display: block;
+    }
+    .header-main .logo-area {
+        width: 100%;
+        text-align: center;
+    }
+    .header-main .menu-area {
+        width: 100%;
+        
+    }
+    .header-main .menu-area ul li {
+        display: block;
+    }
+    .header-main .menu-area ul {
+        float: none;
+    }
+    .hero-section .hero-content {
+        position: absolute;
+        display: block;
+        z-index: 999;
+        color: #fff;
+        top: 60%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+    .hero-section .hero-content h1 {
+        font-size: 45px;
+    }
+    .hero-content h4 {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .hero-section .shop-button {
+        background-image: linear-gradient(
+    45deg
+    , #da60b1, rgb(192, 84, 156));
+        padding: 7px;
+        color: #fff;
+        box-shadow: 6px 4px 6px 1px hsl(320deg 20% 39%);
+        display: block;
+        margin: auto;
+        width: 31%;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+    .women-section .women-products, .men-section .men-products {
+        display: block;
+    }
+    .product-image img {
+        height: 10%;
+        width: 100%;
+    }
+    
+        
+}
+
+@media all and (max-width: 542px){
+    .hero-section .hero-content h1 {
+        font-size: 31px;
+    }
+    .hero-content h4 {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .hero-section .shop-button {
+        background-image: linear-gradient( 
+    45deg
+     , #da60b1, rgb(192, 84, 156));
+        padding: 7px;
+        color: #fff;
+        box-shadow: 6px 4px 6px 1px hsl(320deg 20% 39%);
+        display: block;
+        margin: auto;
+        width: 44%;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+}
