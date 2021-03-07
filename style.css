@@ -244,10 +244,78 @@ img {
     margin: 0 20px;
 }
 
-.men-section{
+.men-section {
     margin-bottom: 100px;
 }
 
-.product-details p{
-    margin-bottom: 20px ;
+.product-details p {
+    margin-bottom: 20px;
+}
+
+/**footer**/
+
+footer {
+    background-color: RGB(200, 89, 163);
+    height: auto;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-top h3 {
+    font-size: 30px;
+    line-height: 3rem;
+}
+
+.footer-top p {
+    font-size: 16px;
+    line-height: 1rem;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.social li {
+    margin: 0 10px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social a i {
+    font-size: 2rem;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.social a:hover i {
+    color: #0e080beb
+}
+
+.footer-bottom {
+    background-color: #564656;
+    padding: 20px;
+    text-align: center;
+    word-spacing: 2px;
+}
+
+.footer-bottom span {
+    color: black;
 }
